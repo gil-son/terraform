@@ -33,10 +33,20 @@ Em resumo, o Terraform é uma ferramenta poderosa e flexível para gerenciar inf
       <td rowspan="2"><a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket">aws_s3_bucket</a></td>
  </tr>
  <tr align="center">
-     <td><a href="">01-bucket-s3-update-delete</a></td>
+     <td><a href="">02-bucket-s3-update-delete</a></td>
      <td>Foi feito um reaproveitamento do projeto 01-bucket-s3, onde atualizei algumas propriedades para testar o comportamento do Terraform ao atualizar e deletar</td>
-      
- </tr>
+</tr> 
+<tr align="center">
+     <td><a href="">03-variables-with-ec2</a></td>
+     <td>criação de um EC2 utilizando variaveis de ambiente</td>
+     <td><a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance">aws_instance</a></td>
+ </tr> 
+ <tr align="center">
+     <td><a href="">04-variables-with-ec2</a></td>
+     <td>criação de um EC2 utilizando diferentes formas de variáveis de ambiente e utilizando a precedência</td>
+     <td><a href="https://developer.hashicorp.com/terraform/language/values/variables">Precedência de definição de variável</a></td>
+ </tr> 
+
 </table>
 </details>
 
@@ -91,8 +101,18 @@ In summary, Terraform is a powerful and flexible tool for managing infrastructur
       <td rowspan="2"><a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket">aws_s3_bucket</a></td>
  </tr>
  <tr align="center">
-     <td><a href="">01-bucket-s3-update-delete</a></td>
+     <td><a href="">02-bucket-s3-update-delete</a></td>
      <td>Reuse of the 01-bucket-s3 project, where I updated some properties to test Terraform's behavior when updating and deleting</td>
+ </tr>
+ <tr align="center">
+     <td><a href="">03-variables-with-ec2</a></td>
+     <td>Creation of an EC2 using environment variables</td>
+     <td><a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance">aws_instance</a></td>
+ </tr> 
+ <tr align="center">
+     <td><a href="">04-variables-with-ec2</a></td>
+     <td>Creation of an EC2 using different types of environment variables and utilizing precedence</td>
+     <td><a href="https://developer.hashicorp.com/terraform/language/values/variables">Variable definition precedence</a></td>
  </tr>
 </table>
 </details>
