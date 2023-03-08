@@ -42,7 +42,7 @@ Em resumo, o Terraform é uma ferramenta poderosa e flexível para gerenciar inf
      <td><a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance">aws_instance</a></td>
  </tr> 
  <tr align="center">
-     <td><a href="">04-variables-with-ec2</a></td>
+     <td><a href="">04-variables-and-precedence-with-ec2</a></td>
      <td>criação de um EC2 utilizando diferentes formas de variáveis de ambiente e utilizando a precedência</td>
      <td><a href="https://developer.hashicorp.com/terraform/language/values/variables">Precedência de definição de variável</a></td>
  </tr> 
@@ -110,7 +110,7 @@ In summary, Terraform is a powerful and flexible tool for managing infrastructur
      <td><a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance">aws_instance</a></td>
  </tr> 
  <tr align="center">
-     <td><a href="">04-variables-with-ec2</a></td>
+     <td><a href="">04-variables-and-precedence-with-ec2</a></td>
      <td>Creation of an EC2 using different types of environment variables and utilizing precedence</td>
      <td><a href="https://developer.hashicorp.com/terraform/language/values/variables">Variable definition precedence</a></td>
  </tr>
