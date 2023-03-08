@@ -22,13 +22,20 @@ Em resumo, o Terraform é uma ferramenta poderosa e flexível para gerenciar inf
 <details><summary>Exemplos</summary>
 
  <table>
+ <tr align="center">
+     <td><a href="">Projeto</a></td>
+     <td>Propósitos</td>
+     <td>Recursos</td>
+ </tr>
   <tr align="center">
      <td><a href="">01-bucket-s3</a></td>
      <td>criação de um bucket no S3</td>
+      <td rowspan="2"><a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket">aws_s3_bucket</a></td>
  </tr>
  <tr align="center">
      <td><a href="">01-bucket-s3-update-delete</a></td>
      <td>Foi feito um reaproveitamento do projeto 01-bucket-s3, onde atualizei algumas propriedades para testar o comportamento do Terraform ao atualizar e deletar</td>
+      
  </tr>
 </table>
 </details>
@@ -73,9 +80,15 @@ In summary, Terraform is a powerful and flexible tool for managing infrastructur
 <hr/>
 <details><summary>Examples</summary>
  <table>
+ <tr align="center">
+     <td><a href="">Project</a></td>
+     <td>Purposes</td>
+     <td>Resources</td>
+ </tr>
   <tr align="center">
      <td><a href="">01-bucket-s3</a></td>
      <td>create an S3 bucket</td>
+      <td rowspan="2"><a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket">aws_s3_bucket</a></td>
  </tr>
  <tr align="center">
      <td><a href="">01-bucket-s3-update-delete</a></td>
