@@ -1,8 +1,8 @@
 # Configura as credenciais para acessar a API da AWS
 
 provider "aws" {
-  access_key = "AKIA4YJLUZ32TH457XR6"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
   region     = "us-east-1"
 }
 

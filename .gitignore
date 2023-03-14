@@ -39,8 +39,6 @@ plan.tfout
 
 
 
-
-
 # Ignorar pastas criadas pelo pip
 __pycache__/
 bin/
