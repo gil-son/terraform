@@ -36,3 +36,28 @@ node_modules/
 *.zip
 tfplan.out
 plan.tfout
+
+
+
+
+
+# Ignorar pastas criadas pelo pip
+__pycache__/
+bin/
+include/
+lib/
+Scripts/
+
+# Ignorar arquivos de configuração
+*.pyc
+*.pyo
+
+# Ignorar arquivos de log
+*.log
+*.pot
+*.pyc
+
+# Ignorar arquivos de build
+build/
+dist/
+*.egg-info/
