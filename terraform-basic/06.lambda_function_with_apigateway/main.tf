@@ -1,6 +1,6 @@
 provider "aws" {
-  access_key = "AKIA4YJLUZ32SG426CKI"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
   region     = "us-east-1"
 }
 
@@ -26,7 +26,7 @@ resource "aws_lambda_function" "my_lambda_function" {
   handler       = "lambda_function.lambda_handler"
   runtime       = "python3.9"
   filename      = "lambda_function.zip"
-  role          = aws_iam_role.my_lambda_role.arn
+  role          = "arn:aws:iam::876801740533:role/role_full_access_lambda"
 
   provisioner "local-exec" {
     command = "cd lambda && zip -r ../lambda_function.zip ."
@@ -50,22 +50,6 @@ resource "aws_api_gateway_deployment" "my_api_gateway_deployment" {
   }
 }
 
-resource "aws_iam_role" "my_lambda_role" {
-  name = "lambda_role"
-
-  assume_role_policy = jsonencode({
-    Version   = "2012-10-17"
-    Statement = [
-      {
-        Action   = "sts:AssumeRole"
-        Effect   = "Allow"
-        Principal = {
-          Service = "lambda.amazonaws.com"
-        }
-      }
-    ]
-  })
-}
 
 resource "aws_lambda_alias" "my_lambda_alias" {
   name             = "prod"

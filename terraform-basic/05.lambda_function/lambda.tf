@@ -11,7 +11,7 @@ provider "aws" {
 resource "aws_lambda_function" "my_lambda" {
   filename         = "lambda_function.zip"
   function_name    = "my_lambda_function_test_locale_01"
-  role             = "arn:aws:iam::876801740533:role/my_role_to_create_lambda"
+  role             = "arn:aws:iam::876801740533:role/service-role/myFunction-role-4djbonb1"
   handler          = "lambda_function.lambda_handler"
   runtime          = "python3.8"
   memory_size      = 128
