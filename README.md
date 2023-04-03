@@ -51,6 +51,8 @@ Em resumo, o Terraform é uma ferramenta poderosa e flexível para gerenciar inf
 </details>
 
 <details><summary>Comandos</summary>
+
+<details><summary>Comuns</summary>
  <table>
  <tr align="center">
      <td>Comando</td>
@@ -73,6 +75,43 @@ Em resumo, o Terraform é uma ferramenta poderosa e flexível para gerenciar inf
      <td>Se tudo estiver bem, esse comando vai enviar o que foi feito para a AWS</td>
  </tr>
 </table>
+</details>
+
+<details><summary>Variáveis de Ambiente</summary>
+
+<p>Essa é a forma de configurar as variáveis de ambiente via terminal/cli. Existem outras formas como: credential (um arquivo de autenticação da AWS) ou criando um arquivo para guardar as variáveis de ambiente</p>
+
+<table>
+ <tr align="center">
+     <td>Amostra</td>
+     <td>Comando</td>
+     <td>Ação</td>
+ </tr>
+  <tr align="center">
+     <td rowspan=2 >VAR_NAME = VALUE</td>
+     <td>AWS_ACCESS_KEY_ID=[VALUE AWS_ACCESS_KEY_ID]</td>
+     <td>Configura o valor da variável de ambiente do Access key ID</td>
+ </tr>
+ <tr align="center">
+     <td>AWS_SECRET_KEY=[VALUE AWS_SECRET_KEY]</td>
+     <td>Configura o valor da variável de ambiente do Secret access key</td>
+ </tr>
+ <tr align="center">
+     <td rowspan=1 >TF_VAR_ + name_var = [value terraform plan]</td>
+     <td>TF_VAR_aws_profile=value terraform plan</td>
+     <td>Configura o valor da variável de ambiente do usuário</td>
+ </tr>
+  <tr align="center">
+     <td rowspan=2 >terraform plan + -var="aws_ + var=[value]"</td>
+     <td>terraform plan -var="aws_profile=[profile_value]"</td>
+     <td>Configura o valor da variável de ambiente do usuário</td>
+ </tr>
+ <tr>
+    <td>terraform plan -var="instance_type=[instance_value]"</td>
+    <td>Configura o valor da variável de ambiente da instância</td>
+ </tr>
+</table>
+</details>
 </details>
 </details>
 
@@ -117,6 +156,8 @@ In summary, Terraform is a powerful and flexible tool for managing infrastructur
 </table>
 </details>
 <details><summary>Commands</summary>
+
+<details><summary>Commons</summary>
  <table>
  <tr align="center">
      <td>Command</td>
@@ -139,5 +180,41 @@ In summary, Terraform is a powerful and flexible tool for managing infrastructur
      <td>If everything is ok, this command will send what was done to AWS</td>
  </tr>
 </table>
+</details>
+
+
+<details><summary>Environment Variables</summary>
+<p>This is the way to configure environment variables via terminal/cli. There are other ways, such as using a credential file (an AWS authentication file) or creating a file to store the environment variables.</p>
+<table>
+ <tr align="center">
+     <td>Sample</td>
+     <td>Command</td>
+     <td>Action</td>
+ </tr>
+  <tr align="center">
+     <td rowspan=2 >VAR_NAME = VALUE</td>
+     <td>AWS_ACCESS_KEY_ID=[VALUE AWS_ACCESS_KEY_ID]</td>
+     <td>Configures the value of the Access key ID environment variable</td>
+ </tr>
+ <tr align="center">
+     <td>AWS_SECRET_KEY=[VALUE AWS_SECRET_KEY]</td>
+     <td>Configures the value of the Secret access key environment variable</td>
+ </tr>
+ <tr align="center">
+     <td rowspan=1 >TF_VAR_ + name_var = [value terraform plan]</td>
+     <td>TF_VAR_aws_profile=value terraform plan</td>
+     <td>Configures the value of the user environment variable</td>
+ </tr>
+  <tr align="center">
+     <td rowspan=2 >terraform plan + -var="aws_ + var=[value]"</td>
+     <td>terraform plan -var="aws_profile=[profile_value]"</td>
+     <td>Configures the value of the user environment variable</td>
+ </tr>
+ <tr>
+    <td>terraform plan -var="instance_type=[instance_value]"</td>
+    <td>Configures the value of the instance environment variable</td>
+ </tr>
+</table>
+</details>
 </details>
 </details>
