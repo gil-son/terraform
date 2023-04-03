@@ -6,7 +6,7 @@
 
 
 
-<details><summary> <h3>Ler em Português - BR</h3></summary>
+<details><summary> <h2>Ler em Português - BR</h2></summary>
 <hr/>
 Terraform é uma ferramenta de infraestrutura como código (IaC) desenvolvida pela HashiCorp. Ela permite que você defina sua infraestrutura de maneira declarativa, ou seja, você descreve o que quer que sua infraestrutura seja e o Terraform se encarrega de criar e gerenciar os recursos necessários para atender às suas especificações.
 
@@ -19,7 +19,7 @@ O Terraform também oferece suporte a módulos, que são blocos reutilizáveis d
 Em resumo, o Terraform é uma ferramenta poderosa e flexível para gerenciar infraestrutura como código, permitindo que você crie, atualize e exclua recursos em diferentes provedores de nuvem e on-premises de maneira segura e fácil.
 
 <hr/>
-<details><summary>Exemplos</summary>
+<details><summary><h3>Exemplos</h3></summary>
 
  <table>
  <tr align="center">
@@ -50,9 +50,9 @@ Em resumo, o Terraform é uma ferramenta poderosa e flexível para gerenciar inf
 </table>
 </details>
 
-<details><summary>Comandos</summary>
+<details><summary><h3>Comandos</h3></summary>
 
-<details><summary>Comuns</summary>
+<details><summary><h4>Comuns</h4></summary>
  <table>
  <tr align="center">
      <td>Comando</td>
@@ -77,7 +77,7 @@ Em resumo, o Terraform é uma ferramenta poderosa e flexível para gerenciar inf
 </table>
 </details>
 
-<details><summary>Variáveis de Ambiente</summary>
+<details><summary><h4>Variáveis de Ambiente</h4></summary>
 
 <p>Essa é a forma de configurar as variáveis de ambiente via terminal/cli. Existem outras formas como: credential (um arquivo de autenticação da AWS) ou criando um arquivo para guardar as variáveis de ambiente</p>
 
@@ -115,7 +115,7 @@ Em resumo, o Terraform é uma ferramenta poderosa e flexível para gerenciar inf
 </details>
 </details>
 
-<details><summary><h3>Read in English - US</h3></summary>
+<details><summary><h2>Read in English - US</h2></summary>
 <hr/>
 Terraform is an Infrastructure as Code (IaC) tool developed by HashiCorp. It allows you to define your infrastructure declaratively, meaning you describe what you want your infrastructure to be and Terraform takes care of creating and managing the necessary resources to meet your specifications.
 
@@ -127,7 +127,7 @@ Terraform also supports modules, which are reusable configuration blocks that ca
 
 In summary, Terraform is a powerful and flexible tool for managing infrastructure as code, allowing you to create, update, and delete resources across different cloud providers and on-premises in a safe and easy way.
 <hr/>
-<details><summary>Examples</summary>
+<details><summary><h3>Examples</h3></summary>
  <table>
  <tr align="center">
      <td><a href="">Project</a></td>
@@ -155,9 +155,9 @@ In summary, Terraform is a powerful and flexible tool for managing infrastructur
  </tr>
 </table>
 </details>
-<details><summary>Commands</summary>
+<details><summary><h3>Commands</h3></summary>
 
-<details><summary>Commons</summary>
+<details><summary><h4>Commons</h4></summary>
  <table>
  <tr align="center">
      <td>Command</td>
@@ -183,7 +183,7 @@ In summary, Terraform is a powerful and flexible tool for managing infrastructur
 </details>
 
 
-<details><summary>Environment Variables</summary>
+<details><summary><h4>Environment Variables</h4></summary>
 <p>This is the way to configure environment variables via terminal/cli. There are other ways, such as using a credential file (an AWS authentication file) or creating a file to store the environment variables.</p>
 <table>
  <tr align="center">
