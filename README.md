@@ -56,38 +56,6 @@ aws configure --profile "nome_do_usuario"
 </details>
 </details>
 
-
-<details><summary><h3>Exemplos</h3></summary>
-
- <table>
- <tr align="center">
-     <td><a href="">Projeto</a></td>
-     <td>Propósitos</td>
-     <td>Recursos</td>
- </tr>
-  <tr align="center">
-     <td><a href="">01-bucket-s3</a></td>
-     <td>criação de um bucket no S3</td>
-      <td rowspan="2"><a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket">aws_s3_bucket</a></td>
- </tr>
- <tr align="center">
-     <td><a href="">02-bucket-s3-update-delete</a></td>
-     <td>Foi feito um reaproveitamento do projeto 01-bucket-s3, onde atualizei algumas propriedades para testar o comportamento do Terraform ao atualizar e deletar</td>
-</tr> 
-<tr align="center">
-     <td><a href="">03-variables-with-ec2</a></td>
-     <td>criação de um EC2 utilizando variaveis de ambiente</td>
-     <td><a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance">aws_instance</a></td>
- </tr> 
- <tr align="center">
-     <td><a href="">04-variables-and-precedence-with-ec2</a></td>
-     <td>criação de um EC2 utilizando diferentes formas de variáveis de ambiente e utilizando a precedência</td>
-     <td><a href="https://developer.hashicorp.com/terraform/language/values/variables">Precedência de definição de variável</a></td>
- </tr> 
-
-</table>
-</details>
-
 <details><summary><h3>Comandos</h3></summary>
 
 <details><summary><h4>Comuns</h4></summary>
@@ -151,6 +119,38 @@ aws configure --profile "nome_do_usuario"
 </table>
 </details>
 </details>
+  
+  
+<details><summary><h3>Exemplos</h3></summary>
+
+ <table>
+ <tr align="center">
+     <td><a href="">Projeto</a></td>
+     <td>Propósitos</td>
+     <td>Recursos</td>
+ </tr>
+  <tr align="center">
+     <td><a href="">01-bucket-s3</a></td>
+     <td>criação de um bucket no S3</td>
+      <td rowspan="2"><a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket">aws_s3_bucket</a></td>
+ </tr>
+ <tr align="center">
+     <td><a href="">02-bucket-s3-update-delete</a></td>
+     <td>Foi feito um reaproveitamento do projeto 01-bucket-s3, onde atualizei algumas propriedades para testar o comportamento do Terraform ao atualizar e deletar</td>
+</tr> 
+<tr align="center">
+     <td><a href="">03-variables-with-ec2</a></td>
+     <td>criação de um EC2 utilizando variaveis de ambiente</td>
+     <td><a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance">aws_instance</a></td>
+ </tr> 
+ <tr align="center">
+     <td><a href="">04-variables-and-precedence-with-ec2</a></td>
+     <td>criação de um EC2 utilizando diferentes formas de variáveis de ambiente e utilizando a precedência</td>
+     <td><a href="https://developer.hashicorp.com/terraform/language/values/variables">Precedência de definição de variável</a></td>
+ </tr> 
+
+</table>
+</details>  
 </details>
 
 <details><summary><h2>Read in English - US</h2></summary>
@@ -200,34 +200,6 @@ aws configure --profile "user_name"
 </details>
 
 
-<details><summary><h3>Examples</h3></summary>
- <table>
- <tr align="center">
-     <td><a href="">Project</a></td>
-     <td>Purposes</td>
-     <td>Resources</td>
- </tr>
-  <tr align="center">
-     <td><a href="">01-bucket-s3</a></td>
-     <td>create an S3 bucket</td>
-      <td rowspan="2"><a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket">aws_s3_bucket</a></td>
- </tr>
- <tr align="center">
-     <td><a href="">02-bucket-s3-update-delete</a></td>
-     <td>Reuse of the 01-bucket-s3 project, where I updated some properties to test Terraform's behavior when updating and deleting</td>
- </tr>
- <tr align="center">
-     <td><a href="">03-variables-with-ec2</a></td>
-     <td>Creation of an EC2 using environment variables</td>
-     <td><a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance">aws_instance</a></td>
- </tr> 
- <tr align="center">
-     <td><a href="">04-variables-and-precedence-with-ec2</a></td>
-     <td>Creation of an EC2 using different types of environment variables and utilizing precedence</td>
-     <td><a href="https://developer.hashicorp.com/terraform/language/values/variables">Variable definition precedence</a></td>
- </tr>
-</table>
-</details>
 <details><summary><h3>Commands</h3></summary>
 
 <details><summary><h4>Commons</h4></summary>
@@ -290,4 +262,33 @@ aws configure --profile "user_name"
 </table>
 </details>
 </details>
+  
+<details><summary><h3>Examples</h3></summary>
+ <table>
+ <tr align="center">
+     <td><a href="">Project</a></td>
+     <td>Purposes</td>
+     <td>Resources</td>
+ </tr>
+  <tr align="center">
+     <td><a href="">01-bucket-s3</a></td>
+     <td>create an S3 bucket</td>
+      <td rowspan="2"><a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket">aws_s3_bucket</a></td>
+ </tr>
+ <tr align="center">
+     <td><a href="">02-bucket-s3-update-delete</a></td>
+     <td>Reuse of the 01-bucket-s3 project, where I updated some properties to test Terraform's behavior when updating and deleting</td>
+ </tr>
+ <tr align="center">
+     <td><a href="">03-variables-with-ec2</a></td>
+     <td>Creation of an EC2 using environment variables</td>
+     <td><a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance">aws_instance</a></td>
+ </tr> 
+ <tr align="center">
+     <td><a href="">04-variables-and-precedence-with-ec2</a></td>
+     <td>Creation of an EC2 using different types of environment variables and utilizing precedence</td>
+     <td><a href="https://developer.hashicorp.com/terraform/language/values/variables">Variable definition precedence</a></td>
+ </tr>
+</table>
+</details>  
 </details>
