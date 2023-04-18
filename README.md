@@ -80,6 +80,23 @@ aws configure --profile "nome_do_usuario"
      <td>terraform apply</td>
      <td>Se tudo estiver bem, esse comando vai enviar o que foi feito para a AWS</td>
  </tr>
+<tr align="center">
+     <td>terraform fmt</td>
+     <td>Formata a identação do código</td>
+ </tr>
+</table>
+</details>
+
+<details><summary><h4>Extras</h4></summary>
+ <table>
+ <tr align="center">
+     <td>Comando</td>
+     <td>Ação</td>
+ </tr>
+  <tr align="center">
+     <td>terraform plan -out=tfplan.out</td>
+     <td>Cria um arquivo chamado "tfplan.out" que vai conter as informações de saída</td>
+ </tr>
 </table>
 </details>
 
@@ -224,9 +241,24 @@ aws configure --profile "user_name"
      <td>terraform apply</td>
      <td>If everything is ok, this command will send what was done to AWS</td>
  </tr>
+<tr align="center">
+     <td>terraform fmt</td>
+     <td>Formats code indentation</td>
+ </tr>
 </table>
 </details>
-
+<details><summary><h4>Extras</h4></summary>
+ <table>
+ <tr align="center">
+     <td>Command</td>
+     <td>Action</td>
+ </tr>
+  <tr align="center">
+     <td>terraform plan -out=tfplan.out</td>
+     <td>Creates a file named "tfplan.out" that will contain the output information</td>
+ </tr>
+</table>
+</details>
 
 <details><summary><h4>Environment Variables</h4></summary>
 <p>This is the way to configure environment variables via terminal/cli. There are other ways, such as using a credential file (an AWS authentication file) or creating a file to store the environment variables.</p>
