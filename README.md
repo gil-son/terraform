@@ -163,9 +163,9 @@ aws configure --profile "nome_do_usuario"
      
 ```
 variable "aws_region" {
-type        = string
+type = string
 description = ""
-default     = "us-east-1"
+default = "us-east-1"
 }
 ```
      
@@ -175,7 +175,6 @@ default     = "us-east-1"
 ```
 provider "aws" {
 region  = var.aws_region
-profile = var.aws_profile
 }
 ```
 </td>
@@ -391,9 +390,9 @@ aws configure --profile "user_name"
 
 ```
 variable "aws_region" {
-type        = string
+type = string
 description = ""
-default     = "us-east-1"
+default = "us-east-1"
 }
 ```
 
@@ -403,7 +402,6 @@ default     = "us-east-1"
 ```
 provider "aws" {
 region  = var.aws_region
-profile = var.aws_profile
 }
 ```
 
