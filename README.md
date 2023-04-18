@@ -87,19 +87,6 @@ aws configure --profile "nome_do_usuario"
 </table>
 </details>
 
-<details><summary><h4>Extras</h4></summary>
- <table>
- <tr align="center">
-     <td>Comando</td>
-     <td>Ação</td>
- </tr>
-  <tr align="center">
-     <td>terraform plan -out=tfplan.out</td>
-     <td>Cria um arquivo chamado "tfplan.out" que vai conter as informações de saída</td>
- </tr>
-</table>
-</details>
-
 <details><summary><h4>Variáveis de Ambiente</h4></summary>
 
 <p>Essa é a forma de configurar as variáveis de ambiente via terminal/cli. Existem outras formas como: credential (um arquivo de autenticação da AWS) ou criando um arquivo para guardar as variáveis de ambiente</p>
@@ -135,6 +122,24 @@ aws configure --profile "nome_do_usuario"
  </tr>
 </table>
 </details>
+
+<details><summary><h4>Extras</h4></summary>
+ <table>
+ <tr align="center">
+     <td>Comando</td>
+     <td>Ação</td>
+ </tr>
+ <tr align="center">
+     <td>terraform -h</td>
+     <td>permite visualizar todos os comandos</td>
+ </tr>
+  <tr align="center">
+     <td>terraform plan -out=tfplan.out</td>
+     <td>Cria um arquivo chamado "tfplan.out" que vai conter as informações de saída</td>
+ </tr>
+</table>
+</details>
+
 </details>
   
   
@@ -247,18 +252,6 @@ aws configure --profile "user_name"
  </tr>
 </table>
 </details>
-<details><summary><h4>Extras</h4></summary>
- <table>
- <tr align="center">
-     <td>Command</td>
-     <td>Action</td>
- </tr>
-  <tr align="center">
-     <td>terraform plan -out=tfplan.out</td>
-     <td>Creates a file named "tfplan.out" that will contain the output information</td>
- </tr>
-</table>
-</details>
 
 <details><summary><h4>Environment Variables</h4></summary>
 <p>This is the way to configure environment variables via terminal/cli. There are other ways, such as using a credential file (an AWS authentication file) or creating a file to store the environment variables.</p>
@@ -290,6 +283,23 @@ aws configure --profile "user_name"
  <tr>
     <td>terraform plan -var="instance_type=[instance_value]"</td>
     <td>Configures the value of the instance environment variable</td>
+ </tr>
+</table>
+</details>
+
+<details><summary><h4>Extras</h4></summary>
+ <table>
+ <tr align="center">
+     <td>Command</td>
+     <td>Action</td>
+ </tr>
+ <tr align="center">
+     <td>terraform -h</td>
+     <td>to see all commands</td>
+ </tr>
+ <tr align="center">
+     <td>terraform plan -out=tfplan.out</td>
+     <td>Creates a file named "tfplan.out" that will contain the output information</td>
  </tr>
 </table>
 </details>
