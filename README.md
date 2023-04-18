@@ -19,6 +19,44 @@ O Terraform também oferece suporte a módulos, que são blocos reutilizáveis d
 Em resumo, o Terraform é uma ferramenta poderosa e flexível para gerenciar infraestrutura como código, permitindo que você crie, atualize e exclua recursos em diferentes provedores de nuvem e on-premises de maneira segura e fácil.
 
 <hr/>
+
+
+
+<details><summary><h3>Configurações iniciais</h3></summary>
+
+<details><summary><h4>AWS CLI</h4></summary>
+
+Para realizar a comunicação da sua aplicação do Terraform com os serviços da AWS é necessário fazer um vinculo
+
+Uma forma de fazer essa comunicação é através da AWS CLI. As configurações que serão feitas, ficará salva em <b>~/aws/credentials</b>:
+
+<ul>
+<li><b>Configurar profile (usuário) em sua máquina</b>: se você possui apenas um único usuário na sua conta da aws, basta:
+
+```
+aws configure
+```
+mas, se você possui mais de um usuário em sua conta aws, é necessário especificar o usuário:
+
+```
+aws configure --profile "nome_do_usuario"
+```
+
+</li>
+<li>
+<b>Configurar Access Key e Secret Key</b>: após informar o usuário, a AWS CLI vai pedir o Access Key e Secret Key. Caso não tenha, acesse a AWS na parte de usuário (IAM), e habilite essa forma de credencial. Tendo a Access Key e Secret Key, apenas cole.
+</li>
+<li>
+<b>Configurar a região</b>: será pedido a região da sua aplicação, vai descobrir acesse a sua conta na AWS e clique na Guia global, a primeira opção que aparecer é a sua região ou olhe no link da aws, vai ter escrito region=nome_da_sua_regiao. Digite/cole a sua região no AWS CLI.
+</li>
+<li>
+<b>Configurar o output format</b>: para confirgurar a saída dos dados, pode ser escolhido o formato json. Então basta digitar json.
+</li>
+</ul>
+</details>
+</details>
+
+
 <details><summary><h3>Exemplos</h3></summary>
 
  <table>
@@ -127,6 +165,41 @@ Terraform also supports modules, which are reusable configuration blocks that ca
 
 In summary, Terraform is a powerful and flexible tool for managing infrastructure as code, allowing you to create, update, and delete resources across different cloud providers and on-premises in a safe and easy way.
 <hr/>
+
+<details><summary><h3>Initial Settings</h3></summary>
+<details><summary><h4>AWS CLI</h4></summary>
+
+To establish communication between your Terraform application and AWS services, it's necessary to create a link.
+
+One way to do this is through AWS CLI. The settings made will be saved in <b>~/aws/credentials</b>:
+<ul>
+<li><b>Set up a profile (user) on your machine</b>: if you have only one user in your AWS account, just type:
+
+```
+aws configure
+```
+
+but if you have more than one user in your AWS account, you need to specify the user:
+
+```
+aws configure --profile "user_name"
+```
+
+</li>
+<li>
+<b>Set up Access Key and Secret Key</b>: after informing the user, AWS CLI will ask for the Access Key and Secret Key. If you don't have them, access AWS under the user section (IAM), and enable this type of credential. With the Access Key and Secret Key, just copy and paste.
+</li>
+<li>
+<b>Set up the region</b>: the region of your application will be requested. To find out, access your AWS account and click on the Global tab. The first option that appears is your region or check the aws link, it will have "region=your_region_name" written. Enter/paste your region in AWS CLI.
+</li>
+<li>
+<b>Set up the output format</b>: to configure the output data, the json format can be chosen. So just type json.
+</li>
+</ul>
+</details>
+</details>
+
+
 <details><summary><h3>Examples</h3></summary>
  <table>
  <tr align="center">
