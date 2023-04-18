@@ -139,9 +139,78 @@ aws configure --profile "nome_do_usuario"
  </tr>
 </table>
 </details>
+</details>
+
+
+
+<details><summary><h3>Arquivos</h3></summary>
+
+<details><summary><h4>Variáveis de ambiente</h4></summary>
+
+<p>Uma forma de criar variáveis de ambiente além de comandos (seção comandos), é por meio de arquivos:
+
+<table>
+<tr align="center">
+     <td>Arquivos</td>
+     <td>Estrutura do código</td>
+     <td>Utilização da variável no main.tf</td>
+</tr>
+<tr align="center">
+<td>
+<a href="https://github.com/gil-son/terraform-with-aws/blob/main/terraform-basic/03-variables-with-ec2/variables.tf">.tf</a>
+</td>
+<td>
+     
+```
+variable "aws_region" {
+type        = string
+description = ""
+default     = "us-east-1"
+}
+```
+     
+</td>
+<td>
+     
+```
+provider "aws" {
+region  = var.aws_region
+profile = var.aws_profile
+}
+```
+</td>
+     
+</tr>
+<tr align="center">
+<td><a href="https://github.com/gil-son/terraform-with-aws/blob/main/terraform-basic/04-variables-and-precedence-with-ec2/terraform.tfvars">.tfvars</a></td>
+<td>
+
+
+```
+aws_region  = "us-east-1"
+aws_profile = "default"
+```
+
+
+</td>
+<td>
+
+
+```
+provider "aws" {
+region  = var.aws_region
+profile = var.aws_profile
+}
+```
+
+
+</td>
+</tr>
+</table>
+
 
 </details>
-  
+</details>
   
 <details><summary><h3>Exemplos</h3></summary>
 
@@ -172,7 +241,7 @@ aws configure --profile "nome_do_usuario"
  </tr> 
 
 </table>
-</details>  
+</details>
 </details>
 
 <details><summary><h2>Read in English - US</h2></summary>
@@ -301,6 +370,66 @@ aws configure --profile "user_name"
      <td>terraform plan -out=tfplan.out</td>
      <td>Creates a file named "tfplan.out" that will contain the output information</td>
  </tr>
+</table>
+</details>
+</details>
+
+<details><summary><h3>Files</h3></summary>
+<details><summary><h4>Environment Variables</h4></summary>
+<p>One way to create environment variables in addition to commands (commands section) is through files:
+<table>
+<tr align="center">
+     <td>Files</td>
+     <td>Code structure</td>
+     <td>Usage of the variable in main.tf</td>
+</tr>
+<tr align="center">
+<td>
+<a href="https://github.com/gil-son/terraform-with-aws/blob/main/terraform-basic/03-variables-with-ec2/variables.tf">.tf</a>
+</td>
+<td>
+
+```
+variable "aws_region" {
+type        = string
+description = ""
+default     = "us-east-1"
+}
+```
+
+</td>
+<td>
+
+```
+provider "aws" {
+region  = var.aws_region
+profile = var.aws_profile
+}
+```
+
+</td>
+</tr>
+<tr align="center">
+<td><a href="https://github.com/gil-son/terraform-with-aws/blob/main/terraform-basic/04-variables-and-precedence-with-ec2/terraform.tfvars">.tfvars</a></td>
+<td>
+
+```
+aws_region  = "us-east-1"
+aws_profile = "default"
+```
+
+</td>
+<td>
+
+```
+provider "aws" {
+region  = var.aws_region
+profile = var.aws_profile
+}
+```
+
+</td>
+</tr>
 </table>
 </details>
 </details>
