@@ -133,8 +133,12 @@ aws configure --profile "nome_do_usuario"
      <td>terraform -h</td>
      <td>permite visualizar todos os comandos</td>
  </tr>
+<tr align="center">
+     <td>terraform plan -out="tfplan.out"</td>
+     <td>Prepara para criar um arquivo chamado "tfplan.out" que conterá as informações de saída</td>
+ </tr>
   <tr align="center">
-     <td>terraform plan -out=tfplan.out</td>
+     <td>terraform apply "tfplan.out"</td>
      <td>Cria um arquivo chamado "tfplan.out" que vai conter as informações de saída</td>
  </tr>
 </table>
@@ -366,7 +370,11 @@ aws configure --profile "user_name"
      <td>to see all commands</td>
  </tr>
  <tr align="center">
-     <td>terraform plan -out=tfplan.out</td>
+     <td>terraform plan -out="tfplan.out"</td>
+     <td>Prepare to create a file called "tfplan.out" which will contain the output information</td>
+ </tr>
+  <tr align="center">
+     <td>terraform apply "tfplan.out"</td>
      <td>Creates a file named "tfplan.out" that will contain the output information</td>
  </tr>
 </table>
