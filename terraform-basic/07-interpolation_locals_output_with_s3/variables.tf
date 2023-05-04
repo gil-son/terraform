@@ -12,7 +12,7 @@ variable "aws_profile" {
 
 
 variable "environment" {
-  type = string
+  type        = string
   description = "Specify the HOST from Database."
-  default = "dev"
+  default     = "dev"
 }
