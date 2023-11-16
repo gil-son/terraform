@@ -1,7 +1,7 @@
 # Terraform
 
 <div align="center">
-  <img src="https://blog.o2b.com.br/content/images/2022/09/terraform-logo-1.png" width="50%">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Terraform_Logo.svg/1280px-Terraform_Logo.svg.png" width="50%">
 </div>
 
 
