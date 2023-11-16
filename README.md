@@ -1,10 +1,10 @@
 # Terraform
 
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Terraform_Logo.svg/1280px-Terraform_Logo.svg.png" width="50%">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Terraform_Logo.svg/1280px-Terraform_Logo.svg.png" width="70%">
 </div>
 
-
+<hr/>
 
 <details><summary> <h2>Ler em Português - BR</h2></summary>
 <hr/>
