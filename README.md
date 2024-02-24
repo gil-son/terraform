@@ -56,6 +56,16 @@ aws configure --profile "nome_do_usuario"
 </details>
 </details>
 
+<details><summary><h3>Provedores</h3></summary>
+
+No contexto do Terraform e da infraestrutura como código (IaC), um "provider" refere-se ao plugin responsável por gerenciar e interagir com um provedor de nuvem ou serviço específico. Cada provedor de nuvem (por exemplo, AWS, Azure, Google Cloud) ou provedor de serviço (por exemplo, GitHub, Docker) possui seu próprio provedor no Terraform.
+  
+Para encontrar os scripts de exemplos, considere usar a página oficial do <a href="https://registry.terraform.io/providers/hashicorp/aws/latest">Terraform Registry</a>
+
+e pesquise pelo nome do recurso da AWS que você deseja construir usando o Terraform: EC2, ECS, S3, SNS, SQS, DynamoDB, Lambda, etc.
+
+</details>
+
 <details><summary><h3>Comandos</h3></summary>
 
 <details><summary><h4>Comuns</h4></summary>
@@ -355,6 +365,15 @@ aws configure --profile "user_name"
 </details>
 </details>
 
+<details><summary><h3>Providers</h3></summary>
+
+In the context of Terraform and infrastructure as code (IaC), a "provider" refers to the plugin responsible for managing and interacting with a specific cloud or service provider. Each cloud provider (e.g., AWS, Azure, Google Cloud) or service provider (e.g., GitHub, Docker) has its own Terraform provider.
+
+To find the examples script, consider to use the oficial page <a href="https://registry.terraform.io/providers/hashicorp/aws/latest">Terraform Registry</a>
+
+and search by the name of AWS resource you wish to build using Terraform: EC2, ECS, S3, SNS, SQS, DynamoDB, Lambda, etc
+
+</details>
 
 <details><summary><h3>Commands</h3></summary>
 
