@@ -62,7 +62,7 @@ No contexto do Terraform e da infraestrutura como código (IaC), um "provider" r
   
 Para encontrar os scripts de exemplos, considere usar a página oficial do <a href="https://registry.terraform.io/providers/hashicorp/aws/latest">Terraform Registry</a>
 
-e pesquise pelo nome do recurso da AWS que você deseja construir usando o Terraform: EC2, ECS, S3, SNS, SQS, DynamoDB, Lambda, etc.
+Clique em 'documentação' e pesquise pelo nome do recurso da AWS que você deseja construir usando o Terraform: EC2, ECS, S3, SNS, SQS, DynamoDB, Lambda, etc.
 
 </details>
 
@@ -371,7 +371,7 @@ In the context of Terraform and infrastructure as code (IaC), a "provider" refer
 
 To find the examples script, consider to use the oficial page <a href="https://registry.terraform.io/providers/hashicorp/aws/latest">Terraform Registry</a>
 
-and search by the name of AWS resource you wish to build using Terraform: EC2, ECS, S3, SNS, SQS, DynamoDB, Lambda, etc
+Click on 'documentation' and search by the name of AWS resource you wish to build using Terraform: EC2, ECS, S3, SNS, SQS, DynamoDB, Lambda, etc
 
 </details>
 
