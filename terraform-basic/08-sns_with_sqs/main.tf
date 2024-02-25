@@ -1,16 +1,15 @@
 provider "aws" {
-  region = "us-east-1"
+  region  = var.aws_region
+  profile = var.aws_profile
 }
-
 
 resource "aws_sns_topic" "user_updates010" {
   name = "user-updates-topic010"
-  arn = "arn:aws:sns:us-east-1:876801740533:${aws_sns_topic.name}"
 }
 
 resource "aws_sqs_queue" "user_updates_queue010" {
   name = "user_updates_queue010"
-  arn = "arn:aws:sqs:us-east-1:876801740533:${aws_sqs_queue.name}"
+  fifo_queue = false
 }
 
 resource "aws_sns_topic_subscription" "user_updates_sqs_target" {
