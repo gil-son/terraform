@@ -614,5 +614,5 @@ This file is extremely important for Terraform because it uses this information 
 
 <hr/>
 <div align="center">
-  <img src="https://svgshare.com/i/13cG.svg" width="25%">
+  <img src="https://i.ibb.co/kgNSnpv/git-support.png">
 </div>
